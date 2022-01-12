@@ -1,9 +1,7 @@
-
-import {ReactComponent as GithubIcon} from 'assets/img/github.svg';
-import './styles.css';
+import { ReactComponent as GithubIcon } from 'assets/img/github.svg'
+import './styles.css'
 
 function Navbar() {
-
   return (
     <header>
       <nav className="container">
@@ -12,14 +10,13 @@ function Navbar() {
           <a href="https://github.com/aniebson">
             <div className="dsmovie-contact-container">
               <GithubIcon />
-              <p className="dsmovie-contact-link">/devsuperior</p>
+              <p className="dsmovie-contact-link">/aniebson</p>
             </div>
           </a>
         </div>
       </nav>
     </header>
-  );
-
+  )
 }
 
-export default Navbar;
+export default Navbar
